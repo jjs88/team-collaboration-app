@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team Collaboration App</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<div class="app-name">
+			<h4>Team <span>Finder</span></h4>
+		</div>
+		<div class="team-name">
+			<h2>Team Name</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. (<a href="#">Edit</a>)</p>
+		</div>
+		<div class="show-more">
+			<!--I'm not sure if this is a button or a link-->
+			<a class="button" href="#">Show More</a> 	
+		</div>
+	</header>
+	<nav>
+		<ul class="top-nav">
+			<li><a href="#">Chat</a></li>
+			<li><a href="#">Whiteboard</a></li>
+			<li><a href="#">Chart</a></li>
+			<li><a href="#">Diagrams</a></li>
+			<li><a href="#">Code Editor</a></li>
+			<li><a href="#">Calendar</a></li>
+			<li class="more"><a href="#">+ More</a></li>
+		</ul>
+	</nav>
+	<div class="main-workspace">
+		<!-- Add all HTML for the chat half of the main workspace  -->
+		<div class="chat-space">
+			<!-- We Show all messages in a stream-->
+			<div class="chat-stream"> 	
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>John</p>
+					</div>
+					<div class="message">
+						<p>Hi team!</p>
+					</div>
+					<div class="">
+						<p>an hour</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<!-- Add all HTML for the other half of the main workspace, in this case it will be the whiteboard. -->
+		<div class="secondary-space">
+			<div class="title">
+				<h4>Whiteboard</h4>
+			</div>
+			<div class="artboard">
+				<img src="http://i.imgur.com/8UEMBMs.jpg">
+			</div>
+			<div class="art-tools">
+				<!-- We need to replace the text in this list with icons -->
+				<ul>
+					<li>Brush</li>
+					<li>Paint</li>
+					<li>Pen</li>
+					<li>Preview</li>
+					<li>Maximize</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<!-- No footer information yet -->
+	</footer>
+</body>
+</html>
