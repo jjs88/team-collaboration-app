@@ -3,3 +3,41 @@
 	-moz-box-sizing:border-box;
 	box-sizing: border-box;
 }
+
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.main-workspace{
+
+}
+
+.main-workspace > div{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.chat-stream{
+	width:100%;
+	background-color: #2593A3;
+}
+
+.whiteboard{
+	background-color: #646464;
+	width: 100%;
+}
+
+.whiteboard .title h4{
+	text-align: center;
+	padding-top: 20px;
+	color: #fff;
+}
+
+.whiteboard img{
+	width: 100%;
+	padding: 0 30px;
+}
