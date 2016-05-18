@@ -33,13 +33,24 @@
 
 .whiteboard .title h4{
 	text-align: center;
-	padding-top: 20px;
+	padding: 20px;
 	color: #fff;
 }
+
 
 .whiteboard img{
 	width: 100%;
 	padding: 0 30px;
+	box-shadow: 0 4px 2px -2px #000;
+}
+
+.whiteboard .art-tools{
+	margin: 15px 30px;
+	
+}
+
+.whiteboard .art-tools ul li{
+	display: inline;
 }
 
 /* reset */
@@ -205,6 +216,111 @@ button p {
 ::-webkit-input-placeholder {
    color: white;
    text-decoration: underline;
+}
+
+.chat-stream{
+	padding-top: 50px;
+}
+
+.chat-stream > div{
+	margin-left: 2%;
+	border-left: 5px solid #1D7582;
+	padding: 10px 15px;
+}
+
+.chat-block > div{
+	display: inline-block;
+	
+}
+
+.chat-block .name{
+	width: 15%;
+}
+
+.chat-block .name p{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.chat-block .message{
+	width: 75%;
+	position: relative;
+}
+
+.chat-block .message:before{
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;	
+	border-width: 7px;
+	margin-top: -7px;
+}
+
+.chat-block .pink-arrow:before{
+	border-right-color: #EA84B6;
+}
+
+.chat-block .green-arrow:before{
+	border-right-color: #77C269;
+}
+
+.chat-block .cerise-arrow:before{
+	border-right-color: #F37878;
+}
+
+.chat-block .white-arrow:before{
+	border-right-color: #FFF;
+}
+
+.chat-block .orange-arrow:before{
+	border-right-color: #EC8D2D;
+}
+
+.chat-block .message p{
+	padding: 2%;
+	display: inline-block;
+	border-radius: 3px;
+	color: #333;
+}
+
+.chat-block .message a{
+	color: #000;
+	border-bottom: 1px dashed #333;
+	text-decoration: none;
+}
+
+.chat-block .time-past{
+	width: 9%;
+}
+
+.chat-block .time-past p{
+	font-size: 14px;
+	color: #ccc;
+}
+.msg-pink{
+	background-color: #EA84B6;
+}
+
+
+.msg-green{
+	background-color: #77C269;
+}
+
+.msg-cerise{
+	background-color: #F37878;
+}
+
+.msg-white{
+	background-color: #FFF;
+}
+
+.msg-orange{
+	background-color: #EC8D2D;
 }
 
 

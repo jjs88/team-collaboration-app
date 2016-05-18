@@ -4,7 +4,7 @@
 	<title>Team Collaboration App</title>
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
       <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
-
+    <script src="https://use.fontawesome.com/82ed317e37.js"></script>
 </head>
 <body>
 	<header>
@@ -42,13 +42,86 @@
 					<div class="name">
 						<p>John</p>
 					</div>
-					<div class="message">
-						<p>Hi team!</p>
+					<div class="message pink-arrow">
+
+						<p class="msg-pink">Hi team!</p>
 					</div>
-					<div class="">
+					<div class="time-past">
 						<p>an hour</p>
 					</div>
 				</div>	
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>Almon</p>
+					</div>
+					<div class="message green-arrow">
+						<p class="msg-green">Hey John, Is Michael here yet?</p>
+					</div>
+					<div class="time-past">
+						<p>32 mins</p>
+					</div>
+				</div>
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>Michael</p>
+					</div>
+					<div class="message cerise-arrow">
+						<p class="msg-cerise">Yes, I'm here. Let's get started</p>
+					</div>
+					<div class="time-past">
+						<p>17 mins</p>
+					</div>
+				</div>
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>You</p>
+					</div>
+					<div class="message white-arrow">
+						<p class="msg-white">I'm also here. Let's begin.</p>
+					</div>
+					<div class="time-past">
+						<p>4 mins</p>
+					</div>
+				</div>
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>John</p>
+					</div>
+					<div class="message pink-arrow">
+						<p class="msg-pink">Ok, check <a href="#">this page out</a>. What do you guys think? :)</p>
+					</div>
+					<div class="time-past">
+						<p>4 mins</p>
+					</div>
+				</div>
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>Michael</p>
+					</div>
+					<div class="message cerise-arrow">
+						<p class="msg-cerise">That's awesome. How did you make the transition?</p>
+					</div>
+					<div class="time-past">
+						<p>2 mins</p>
+					</div>
+				</div>
+				<!-- Define each message as a block containing name, message and time posted -->
+				<div class="chat-block">	
+					<div class="name">
+						<p>Sharon</p>
+					</div>
+					<div class="message orange-arrow">
+						<p class="msg-orange">Nice job!</p>
+					</div>
+					<div class="time-past">
+						<p>1 mins</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!-- Add all HTML for the other half of the main workspace, in this case it will be the whiteboard. -->
@@ -63,7 +136,7 @@
 				<div class="art-tools">
 					<!-- We need to replace the text in this list with icons -->
 					<ul>
-						<li><i class="fa fa-paint-brush" aria-hidden="true"></i></i></li>
+						<li><i class="fa fa-paint-brush" aria-hidden="true"></i></li>
 						<li>Paint</li>
 						<li>Pen</li>
 						<li>Preview</li>
