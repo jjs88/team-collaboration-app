@@ -4,6 +4,7 @@
 	<title>Team Collaboration App</title>
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
       <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/82ed317e37.js"></script>
 </head>
 <body>
 	<header>
@@ -33,7 +34,7 @@
 	</nav>
 	<div class="main-workspace clearfix">
 		<!-- Add all HTML for the chat half of the main workspace  -->
-		<div class="chat-space">
+		<div class="chat-space half">
 			<!-- We Show all messages in a stream-->
 			<div class="chat-stream"> 	
 				<!-- Define each message as a block containing name, message and time posted -->
@@ -125,6 +126,28 @@
 			<!-- Put code for sending a message here instead of in the footer -->
 			<div class="say-something">
 				
+			</div>
+		</div>
+		<!-- Add all HTML for the other half of the main workspace, in this case it will be the whiteboard. -->
+		<div class="secondary-space half">
+			<div class="whiteboard">
+				<div class="title">
+					<h4>Whiteboard</h4>
+				</div>
+				<div class="artboard">
+					<img src="http://i.imgur.com/8UEMBMs.jpg">
+				</div>
+				<div class="art-tools">
+				<i class="fa fa-pencil"></i>
+					<!-- We need to replace the text in this list with icons -->
+					<ul>
+						<li><img src="./Assets/artboard-tools/artistic-brush.png"></li>
+						<li><img src="./Assets/artboard-tools/painter-palette.png"></li>
+						<li><img src="./Assets/artboard-tools/eyedropper.png"></li>
+						<li><img src="./Assets/artboard-tools/landscape-picture.png"></li>
+						<li><img src="./Assets/artboard-tools/expand-button.png"></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
