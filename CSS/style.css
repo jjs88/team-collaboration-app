@@ -1,10 +1,11 @@
+/* defaults */
+
 *{
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing: border-box;
 }
 
-/* defaults */
 body {
 	width:100%;
 	color: white;
@@ -68,7 +69,6 @@ header span {
 	margin-top:10px;
 }
 
-
 /* nav styles */
 
 nav {
@@ -86,8 +86,6 @@ nav {
 	font-weight: bold;
 	text-decoration: none;
 }
-
-
 
 .top-nav li:nth-child(-n+2) a {
 	color: salmon;
@@ -286,50 +284,43 @@ nav {
     color:#333;
 }
 
-/* footer styles */
+.whiteboard .art-tools ul li img{
+	cursor: pointer;
+}
 
-footer {
+/* .say-something styles */
+
+.ss{
 	position: fixed;
-	left:10px;
 	bottom: 0px;
-	width: 50%;
-	border:2px solid #218492;
-	background-color: #66b3be;
+	left:5%;
+	width: 38%;
+	padding: 20px 20px 10px 40px;
+	background-color: #28A2B3;
+	box-shadow: 2px 2px 3px #1D7582;
 }
 
-
-footer input[type=text] {
-	height:50px;
-	width:90%;
-	font-size: 20px;
-	background-color: #66b3be;
-	border:0;
-	color:white;
-	outline:none;
-	padding-left: 20px;
-	/*border-color: #2593A3;*/
-	/*box-shadow: 1px 1px 1px #2593A3;*/
-	/*text-align: center;*/
-
+.ss input[type=text]{
+	color: white;
+	font-size: 16px;
+	background-color: transparent;
+	outline: none;
+	border: 0;
+	border-bottom: 3px solid #fff;
+	float: left;
+	width: 65%;
+	text-decoration: none;
 }
 
-
-footer button:before{
-	content: "";
-	height: 0;
-	width: 0;
-	padding: 2px;
+.ss input[type=button]{
 	border-left:2px solid #218492;
-}
-
-footer button {
-	width:8%;
-	border-radius: 5px;
-	margin-top: 10px;
+	float: right;
+	width:20%;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
 	background-color: transparent;
 	background-repeat:no-repeat;
-    border: none;
-    border-left:1px;
     cursor:pointer;
     overflow: hidden;
     color:white;
@@ -338,17 +329,11 @@ footer button {
     font-size: 16px;
 }
 
-
-
-
-
+/*Utility classes*/
 
 ::-webkit-input-placeholder {
    color: white;
-   text-decoration: underline;
 }
-
-/*Utility classes*/
 
 .clearfix::after{
 	content: "";

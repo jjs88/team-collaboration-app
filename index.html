@@ -15,8 +15,6 @@
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <span class="edit"><a href="#">(Edit)</a> </span></p>
 		</div>
 		<div class="show-more">
-			<!--I'm not sure if this is a button or a link-->
-			<!-- <a class="button" href="#">Show More</a>  -->	
 			<button> Show More... </button>
 		</div>
 	</header>
@@ -35,7 +33,7 @@
 		<!-- Add all HTML for the chat half of the main workspace  -->
 		<div class="chat-space">
 			<!-- We Show all messages in a stream-->
-			<div class="chat-stream"> 	
+			<div class="chat-stream clearfix"> 	
 				<!-- Define each message as a block containing name, message and time posted -->
 				<div class="chat-block">	
 					<div class="name">
@@ -122,13 +120,14 @@
 					</div>
 				</div>
 			</div>
+			<div class="ss">
+				<input type="text" name="speak" placeholder="Say Something">
+				<input type="button" name="confirmMessage" value="Send">
+			</div>
 		</div>
 	</div>
 	<footer>
 		<!-- No footer information yet -->
-		<input type="text" placeholder="talk to your peers..."></input>
-		<button> <b>Send</b> </button>
-		<!-- <button> Send </button> -->
 	</footer>
 </body>
 </html>
