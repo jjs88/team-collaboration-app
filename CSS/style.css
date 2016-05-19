@@ -128,7 +128,7 @@ nav {
 }
 
 .chat-space{
-	background-color:#2593A3
+	background-color:#2593A3;
 }
 
 .secondary-space{
@@ -290,35 +290,58 @@ nav {
 
 footer {
 	position: fixed;
-	left:0px;
+	left:10px;
 	bottom: 0px;
 	width: 50%;
+	border:2px solid #218492;
+	background-color: #66b3be;
 }
+
 
 footer input[type=text] {
 	height:50px;
 	width:90%;
 	font-size: 20px;
-	background-color: #66B2B2;
-	border:5px solid #66B2B2;
+	background-color: #66b3be;
+	border:0;
 	color:white;
-	border-right: 2px solid black;
-	padding-right:10px;
+	outline:none;
+	padding-left: 20px;
+	/*border-color: #2593A3;*/
+	/*box-shadow: 1px 1px 1px #2593A3;*/
+	/*text-align: center;*/
 
+}
+
+
+footer button:before{
+	content: "";
+	height: 0;
+	width: 0;
+	padding: 2px;
+	border-left:2px solid #218492;
 }
 
 footer button {
 	width:8%;
-	background-color: salmon;
-	border:1px solid;
 	border-radius: 5px;
 	margin-top: 10px;
+	background-color: transparent;
+	background-repeat:no-repeat;
+    border: none;
+    border-left:1px;
+    cursor:pointer;
+    overflow: hidden;
+    color:white;
+    outline:none;
+    padding:5px;
+    font-size: 16px;
 }
 
-button p {
-	border:1px solid;
-	padding: 5px;
-}
+
+
+
+
 
 ::-webkit-input-placeholder {
    color: white;
